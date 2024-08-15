@@ -1,0 +1,4 @@
+echo "Credentials to enter into mysql container after running mysqlcompose file"
+
+#mysql -uroot -p
+#password: example
