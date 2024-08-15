@@ -1,0 +1,21 @@
+create database <db-name>;
+
+show tables;
+
+create table emp
+(
+emp_id int,
+emp_name varchar(255),
+emp_dept varchar(255),
+emp_sal float
+emp_city varchar(255),
+);
+
+select * from emp;
+
+insert into emp values(1101,"aaa","IT",503030,"zzz");
+
+insert into emp values(1102,"bbb","config",502255,"yyy");
+
+
+select * from emp;
